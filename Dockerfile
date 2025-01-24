@@ -12,6 +12,13 @@ RUN apt-get update && \
     libdrm-dev \
     libsdl2-dev \
     libsdl2-image-dev \
+    alsa-tools \
+    mosquitto \
+    mosquitto-dev \
+    mosquitto-clients \
+    libmosquitto1 \
+    libmosquittopp1 \
+    libmosquitto-dev \
     wayland-protocols \
     build-essential \
     ca-certificates \
