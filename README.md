@@ -155,7 +155,7 @@ sudo apt install picocom nmap
 Clone the repository:
 
 ```bash
-git clone --recurse-submodules https://github.com/lvgl/lv_port_texas_sk-am62b-p1.git
+git clone --recurse-submodules https://github.com/texasinstruments/ti-lvgl-demo.git
 ```
 
 **IMPORTANT**: 
@@ -178,7 +178,7 @@ git clone --recurse-submodules https://github.com/lvgl/lv_port_texas_sk-am62b-p1
 Build the docker image and the lvgl benchmark application:
 
 ```bash
-cd lv_port_texas_sk-am62b-p1
+cd ti-lvgl-demo
 ./scripts/docker_setup.sh --create-image
 ./scripts/docker_setup.sh --build-app
 ```
