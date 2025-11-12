@@ -2,3 +2,4 @@
 [submodule "lv_port_linux"]
 	path = lv_port_linux
 	url = https://github.com/texasinstruments/lv_port_linux.git
+	branch = legacy
